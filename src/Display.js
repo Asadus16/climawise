@@ -25,7 +25,7 @@ export default function Display() {
   return (
     <>
       <div className="navbar">
-        My <span className="nav_span">Weather</span>
+        Clima <span className="nav_span">Wise</span>
       </div>
       <div className="page">
         <div className="weather">
