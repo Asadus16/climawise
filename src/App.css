@@ -264,7 +264,7 @@ body {
   }
   .display {
     align-items: center;
-    width: 92%;
+    max-width: 100%;
     display: flex;
   }
   .temp {
@@ -274,7 +274,7 @@ body {
     flex: 0 0;
     margin: 10px;
     border-radius: 30px;
-    width: 293px;
+    max-width: 100%;
   }
   .formm {
     width: 303px;
