@@ -4,7 +4,7 @@
 body {
   margin: 0;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-repeat: unset;
   color: white;
   background-image: url('images/back.jpg');
@@ -22,7 +22,7 @@ body {
   font-family: 'Kanit', sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #8c858c;
+  color: black;
   position: relative;
   z-index: 1;
 }
@@ -248,8 +248,8 @@ body {
   align-items: center;
 }
 .nav_span {
-  color: #353232;
-  font-weight: bold;
+  color: white;
+  font-weight: light;
 }
 
 @media (max-width: 414px) {
@@ -257,14 +257,14 @@ body {
     flex-direction: column;
   }
   .navbar {
-    margin-bottom: 80px;
-    max-width: 100%;
-    font-size: 60px;
+    margin-bottom: 20px;
+    /* max-width: 100%; */
+    font-size: 23px;
     text-align: center;
   }
   .display {
     align-items: center;
-    width: 100%;
+    width: 92%;
     display: flex;
   }
   .temp {
@@ -274,9 +274,10 @@ body {
     flex: 0 0;
     margin: 10px;
     border-radius: 30px;
+    width: 293px;
   }
   .formm {
-    width: 360px;
+    width: 303px;
   }
 
   .search {
